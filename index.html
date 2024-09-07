@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>ALab320H.1.2</title>
 </head>
 <body>
     <header>
-        <nav aria-label="Main Navigation" role="navigation">
+        <nav aria-label="Main Navigation" role="navigation" class="mainNav">
             <ul>
                 <li><a href="...">Home</a></li>
                 <li><a href="...">Women's</a></li>
@@ -20,10 +20,11 @@
     </header>
     <main>
         <article>
-            <h2>Test Article</h2>
+            <h2 class="title">Test Article</h2>
             <time datetime="2024-07-09">7 September, 2024</time>
             <img src="./images/blog-image-1.jpg" alt="blog-image-1">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident delectus labore nam, quae porro pariatur, vel molestias omnis obcaecati maiores cupiditate voluptas, doloremque distinctio atque adipisci mollitia similique quo quod?Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime officia nulla saepe molestias quae. Officiis sit eligendi nemo dolorem quis dolores facilis recusandae, illo, accusantium obcaecati aliquid, minima quas eaque?</p>
+            <a href="full-article-url.html" class="continue">Continues...</a>
                 <aside>
                     <h3>Related Articles</h3>
                     <ul>
@@ -34,10 +35,11 @@
                 </aside>
         </article>
         <article>
-            <h2>Test Article</h2>
+            <h2 class="title">Test Article</h2>
             <time datetime="2024-07-09">7 September, 2024</time>
             <img src="./images/blog-image-2.jpg" alt="blog-image-1">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident delectus labore nam, quae porro pariatur, vel molestias omnis obcaecati maiores cupiditate voluptas, doloremque distinctio atque adipisci mollitia similique quo quod?Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime officia nulla saepe molestias quae. Officiis sit eligendi nemo dolorem quis dolores facilis recusandae, illo, accusantium obcaecati aliquid, minima quas eaque?</p>
+            <a href="full-article-url.html" class="continue">Continues...</a>
             <aside>
                 <h3>Related Articles</h3>
                 <ul>
@@ -48,13 +50,13 @@
             </aside>
         </article>
     </main>
-    <footer role="navigation">
+    <footer aria-label="Main Navigation" role="navigation" class="footerNav">
         <ul>
             <li><a href="...">Home</a></li>
             <li><a href="...">Women's</a></li>
             <li><a href="...">Men's</a></li>
         </ul>
-        &copy;
+        <p class="copyright">&copy;</p>
     </footer>
 </body>
 </html>
